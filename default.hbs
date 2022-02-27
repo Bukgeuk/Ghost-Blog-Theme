@@ -22,9 +22,9 @@
     this will take care of caching and cache-busting automatically --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}"/>
 
-    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset "built/prism.css"}}"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css" integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" href="{{asset "css/fonts.css"}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset "built/fonts.css"}}"/>
 
     {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
     it should always be the last tag before the closing head tag --}}
@@ -33,7 +33,7 @@
 </head>
 <body class="{{body_class}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}">
 
-<script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+<script type="text/javascript" src="{{asset "built/prism.js"}}"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.js"
   integrity="sha384-JiKN5O8x9Hhs/UE5cT5AAJqieYlOZbGT3CHws/y97o3ty4R7/O5poG9F3JoiOYw1" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/contrib/auto-render.min.js"
